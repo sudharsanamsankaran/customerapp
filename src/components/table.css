@@ -1,0 +1,77 @@
+.th{
+    color: black;
+    background-color: mediumseagreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+input[type=text], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+BUTTON{
+    border-color: transparent;
+    align-content: center;
+    background-image: url("delete.jpg");
+    background-position: center;
+    background-image: cross-fade('delete.jpg');
+    border-color: brown;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+input:focus{
+    background-color: paleturquoise;
+}
+
+.mydetails{
+    background-color: lightgray;
+    width: 500px;
+    border:3px solid steelblue;
+    border-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tt{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    /* width: fit-content; */
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+tbody{
+    border-color: lightsalmon;
+    background-color: lightgreen;
+
+}
+/* .button-del{
+    background-color: green;
+    color: darkorange;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.button-del:hover{
+    background-color: red;
+    color: silver;
+} */
